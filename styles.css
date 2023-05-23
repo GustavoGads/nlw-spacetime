@@ -129,6 +129,11 @@ aside img:nth-child(2) {
 aside p {
   font-size: 2em;
   text-align: center;
+  cursor: default;
+}
+
+aside a {
+  cursor: default;
 }
 
 aside p img {
@@ -146,6 +151,7 @@ aside p  img:hover{
 aside span {
   font-size: 0.75rem;
   color: #9e9ea0;
+  cursor: default;
 }
 
 @media (max-width: 768px) {
