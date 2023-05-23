@@ -131,6 +131,18 @@ aside p {
   text-align: center;
 }
 
+aside p img {
+  width: 25px;
+
+  transition: transform 0.3s ease-in-out;
+}
+
+aside p  img:hover{
+  transform: scale(1.2);
+  border: solid 1px white;
+  border-radius: 50%;
+}
+
 aside span {
   font-size: 0.75rem;
   color: #9e9ea0;
